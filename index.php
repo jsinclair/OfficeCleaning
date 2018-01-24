@@ -1,10 +1,10 @@
 <?PHP
-
+// Renaldo Zynique
 echo "<h2>Cleaning Schedule</h2>";
 
 $date = date_create();
 
-echo "<h3>".date_format($date,"Y/m/d")."</h3>"."<br/>";
+echo "<h3>".date('F Y')."</h3>"."<br/>";
 
 /*echo (date('z') + 1)."<br/>";
 echo (date('W') + 1)."<br/>";
@@ -18,7 +18,7 @@ echo date('N',strtotime(date('Y-m-01')))."<br/>";
 echo date('z',strtotime(date('Y-m-01')))."<br/>";
 echo date("t")."<br/>";*/
 
-$cleaners = ['Emile','Etienne','James','Giovanni','Igor','Jack','Maurice','Renaldo','Zynique'];
+$cleaners = ['Renaldo','Zynique', 'Dominic', 'Emile','Etienne','James','Giovanni','Jack','Maurice'];
 
 echo "<table>";
 echo "<tr>";
