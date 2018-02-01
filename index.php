@@ -77,4 +77,6 @@ while ($currentDay < date('t',strtotime(date('Y-'.$testMonth.'-01')))+1) {
 echo "</tr>";
 echo "</table>";
 
+echo "<p><b>Cleaner Responsibilities:</b> Wash coffee machine parts, leave the milk system parts in the cleaning liquid. Load up and run the dish washer. Take out the rubbish if the bin is full, or if it's Friday.</p>";
+
 ?>
