@@ -18,7 +18,8 @@ echo date('N',strtotime(date('Y-m-01')))."<br/>";
 echo date('z',strtotime(date('Y-m-01')))."<br/>";
 echo date("t")."<br/>";*/
 
-$cleaners = ['Renaldo','Zynique', 'Dominic', 'Emile','Etienne','James','Giovanni','Jack','Maurice'];
+//$cleaners = ['Renaldo', 'Zynique', 'Maurice', 'Dominic', 'Steve', 'Emile', 'Etienne', 'James', 'Giovanni', 'Jack'];
+$cleaners = ['Etienne', 'James', 'Giovanni', 'Jack', 'Jordan', 'Renaldo', 'Zynique', 'Maurice', 'Dominic', 'Steve', 'Emile'];
 
 echo "<table>";
 echo "<tr>";
