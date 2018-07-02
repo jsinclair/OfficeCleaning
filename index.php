@@ -18,8 +18,7 @@ echo date('N',strtotime(date('Y-m-01')))."<br/>";
 echo date('z',strtotime(date('Y-m-01')))."<br/>";
 echo date("t")."<br/>";*/
 
-//$cleaners = ['Renaldo', 'Zynique', 'Maurice', 'Dominic', 'Steve', 'Emile', 'Etienne', 'James', 'Giovanni', 'Jack'];
-$cleaners = ['Dominic', 'Stephan', 'Steve', 'Emile', 'Etienne', 'James', 'Giovanni', 'Jack', 'Jordan', 'Renaldo', 'Zynique', 'Maurice'];
+$cleaners = ['Jack', 'Jordan', 'Renaldo', 'Zynique', 'Wesley', 'Maurice', 'Dominic', 'Stephan', 'Steve', 'Emile', 'Etienne', 'James', 'Giovanni', ];
 
 echo "<table>";
 echo "<tr>";
@@ -78,6 +77,33 @@ while ($currentDay < date('t',strtotime(date('Y-'.$testMonth.'-01')))+1) {
 echo "</tr>";
 echo "</table>";
 
-echo "<p><b>Cleaner Responsibilities:</b> Wash coffee machine parts, leave the milk system parts in the cleaning liquid. Load up and run the dish washer. Take out the rubbish if the bin is full, or if it's Friday.</p>";
+echo "<h3>Cleaner Responsibilities:</h3>";
+echo "<h4>Dishes</h4>";
+echo "<ul>";
+echo "<li>Pack and start dishwasher.</li>";
+echo "<li><b>On Friday pack and start the dishwasher early</b> enough so it is done before the last person walks out. This way the dishwasher can be opened before the weekend.</li>";
+echo "<li>Wash everything that does not fit in the dishwasher.</li>";
+echo "</ul>";
+echo "<h4>Bins</h4>";
+echo "<ul>";
+echo "<li><b>Empty small bin in back office.</b></li>";
+echo "<li><b>Empty small bin in front office.</b></li>";
+echo "<li>If recycling bin is full, please take it out.</li>";
+echo "<li>If normal bin is full, please take it out.</li>";
+echo "<li>If it is Friday, you have to clean out all bins.</li>";
+echo "</ul>";
+echo "<h4>Coffee Machine</h4>";
+echo "<ul>";
+echo "<li><b>Wipe off coffee machine.</b></li>";
+echo "<li><b>Clean coffee machine nozzles.</b></li>";
+echo "<li>Remove coffee machine milk system, clean thoroughly and <b>leave in solution</b>.</li>";
+echo "<li>Wash coffee machine drip tray, ground container and metal mesh.</li>";
+echo "</ul>";
+echo "<h4>Other</h4>";
+echo "<ul>";
+echo "<li><b>Empty and rinse water machine drip tray.</b></li>";
+echo "<li><b>Check geyser overflow and empty if there is water in the bottle.</b></li>";
+echo "<li><b>Wipe down kitchen counters.</b></li>";
+echo "</ul>";
 
 ?>
