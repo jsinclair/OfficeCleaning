@@ -18,7 +18,7 @@ echo date('N',strtotime(date('Y-m-01')))."<br/>";
 echo date('z',strtotime(date('Y-m-01')))."<br/>";
 echo date("t")."<br/>";*/
 
-$cleaners = ['Jack', 'Jordan', 'Renaldo', 'Zynique', 'Wesley', 'Maurice', 'Dominic', 'Stephan', 'Steve', 'Emile', 'Etienne', 'James', 'Giovanni', ];
+$cleaners = ['Wesley', 'Dominic', 'Stephan', 'Steve', 'Emile', 'Etienne', 'James', 'Giovanni', 'Jack', 'Jordan', 'Renaldo', 'Zynique', ];
 
 echo "<table>";
 echo "<tr>";
@@ -32,7 +32,7 @@ echo "<td>Sunday</td>";
 echo "</tr>";
 
 $startDate = "2017-08-01";
-$testMonth = date("m");
+$testMonth = date('m');
 
 $currentDay = 1;
 $offset = date('N',strtotime(date('Y-'.$testMonth.'-01')));
