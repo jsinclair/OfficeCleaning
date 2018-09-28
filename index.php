@@ -4,7 +4,7 @@ echo "<h2>Cleaning Schedule</h2>";
 
 $date = date_create();
 
-echo "<h3>".date('F Y')."</h3>"."<br/>";
+echo "<h3>".date('F Y', strtotime('first day of +1 month'))."</h3>"."<br/>";
 
 /*echo (date('z') + 1)."<br/>";
 echo (date('W') + 1)."<br/>";
@@ -18,7 +18,7 @@ echo date('N',strtotime(date('Y-m-01')))."<br/>";
 echo date('z',strtotime(date('Y-m-01')))."<br/>";
 echo date("t")."<br/>";*/
 
-$cleaners = ['Wesley', 'Dominic', 'Stephan', 'Steve', 'Emile', 'Etienne', 'James', 'Giovanni', 'Jack', 'Jordan', 'Renaldo', 'Zynique', ];
+$cleaners = ['Giovanni', 'Shiradz', 'Jack', 'Jordan', 'Renaldo', 'Zynique', 'Wesley', 'Lee', 'Stephan', 'Ameen', 'Steve', 'Emile', 'Etienne', 'James', ];
 
 echo "<table>";
 echo "<tr>";
@@ -32,7 +32,7 @@ echo "<td>Sunday</td>";
 echo "</tr>";
 
 $startDate = "2017-08-01";
-$testMonth = date('m');
+$testMonth = date('m', strtotime('first day of +1 month'));
 
 $currentDay = 1;
 $offset = date('N',strtotime(date('Y-'.$testMonth.'-01')));
